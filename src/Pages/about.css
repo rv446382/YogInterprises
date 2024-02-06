@@ -1,0 +1,58 @@
+.top {
+    display: flex;
+   
+}
+
+.top>div:first-child {
+    flex: 1;
+}
+
+.top img {
+    max-width: 100vw;
+    height: 70%;
+}
+
+.secondTop {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 40px;
+
+}
+
+.secondTop .firstdiv,
+.secondTop .seconddiv {
+    text-align: center;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.secondTop img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+.secondTop h3 {
+    margin-top: 10px;
+
+}
+
+
+.secondTop .know-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    text-decoration: none;
+
+}
+
+.secondTop .know-more:hover {
+    background-color: #0056b3;
+
+}
